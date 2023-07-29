@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    text-align: center;
 }
 
 .Userform>form>div{
@@ -39,6 +40,7 @@
     padding: 1px 5px;
     border-radius: 5px;
     color: gray;   
+    /* transition: all 0.5s; */
 }
 
 .Userform>form>div>button{
@@ -49,7 +51,16 @@
     border-radius: 5px;
     color: white;
     font-weight: 600;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.1s;
 }
+
+.Userform>form>div>button:hover{
+    transform: scale(1.02);
+}
+
+
 
 .number:hover{
     background-color: #3766e8;
@@ -66,3 +77,4 @@
     color: green;
     font-weight: 700;
 }
+

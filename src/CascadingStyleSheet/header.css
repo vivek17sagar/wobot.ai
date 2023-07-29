@@ -12,3 +12,6 @@
     
 }
 
+.header-subline>h5,.header-noteline>h6{
+    margin: 10px;
+}
