@@ -1,0 +1,68 @@
+
+.Userform{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.Userform>form>div{
+    text-align: left;
+    margin-top: 10px;
+}
+
+.Userform>form>div>label,.industry-select{
+    color: gray;
+    font-weight: 500;
+}
+
+.Userform>form>div>input,.industry-select{
+    margin-top: 5px;
+    padding: 5px 5px;
+    width: 100%;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+    outline: none;
+
+}
+
+.locations{
+    display: flex;
+}
+
+.industry-select{
+    cursor: pointer;
+}
+
+.number{
+    background-color: #f0f0f0;
+    margin: 2px;
+    padding: 1px 5px;
+    border-radius: 5px;
+    color: gray;   
+}
+
+.Userform>form>div>button{
+    width: 100%;
+    padding: 7px;
+    background-color: #3766e8;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+.number:hover{
+    background-color: #3766e8;
+    cursor: pointer;
+    color: white;
+}
+
+.error{
+    color: red;
+    font-weight: 700;
+}
+
+.done{
+    color: green;
+    font-weight: 700;
+}

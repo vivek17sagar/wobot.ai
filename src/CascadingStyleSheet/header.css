@@ -1,0 +1,14 @@
+
+.header-subline>h5,.header-noteline>h6{
+    color: gray;
+}
+
+.header-logo>img{
+    width: 180px;
+}
+
+.header-tagline>h2{
+    margin: 0px;
+    
+}
+
