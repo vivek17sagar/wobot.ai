@@ -9,7 +9,8 @@
 .container{
   border: 2px solid black;
   /* width: 50%; */
-  height: 72vh;
+  /* height: 80%; */
+  padding: 20px 0px;
   text-align: center;
 }
 
